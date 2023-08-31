@@ -1,0 +1,100 @@
+@charset "utf-8";
+@font-face {
+    font-family: delius;
+    src: url(../fonts/Delius_Swash_Caps/DeliusSwashCaps-Regular.ttf);
+}
+
+:root{
+
+    --cor1: #093f5e00;
+    --cor2: #ffffff;
+    --cor3: #17b817;
+    --cor4: #000000; 
+
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}body{
+    background-image: url(../imgens/parque_fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+main{
+    height: 950px;
+    
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+
+   
+    
+
+}header{
+    
+    margin: 0em 0em 0em 6em;
+    
+    
+    
+}header div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: #083808;
+    font-size: 1.5em;
+
+    
+    margin: 20px 0px;
+
+}header input{
+    text-decoration: none;
+    border: solid 1px var(--cor4);
+    padding: 0.5em 3em;
+    background-color: transparent;
+    margin: 2em 0em;
+}input[type="submit"]:hover{
+    border: solid 1px rgba(255, 255, 255, 0.473);
+    transform: translate(2px, 2px) ;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.219);
+    background-color: var(--cor2);
+
+}header h2{
+    padding: 10px;
+    margin-bottom: 20px;
+
+    color: var(--cor3);
+    font-family: delius;
+}
+section{
+    display: flex;
+    justify-content: end;
+    flex-flow: column;
+    
+}section a.button{
+    background-color: #17b817;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219) ;
+    
+    border-radius: 25%;
+    margin: 50px 20px 10px 0px;
+    padding: 10px;
+    
+    color: var(--cor4);
+    text-align: center;
+}section a.button:hover{
+    border: solid 1px rgba(255, 255, 255, 0.473);
+    transform: translate(2px, 2px) ;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.219);
+    background-color: var(--cor2);
+
+}::-webkit-scrollbar{
+    width:  0px;
+    height: 57px;
+}

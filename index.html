@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/stylehome.css">
+  <link rel="shortcut icon" href="imgens/icons8-kite-16.png" type="image/x-icon">
+  <title>criação site 1.0</title>
+</head>
+
+<body>
+  <main>
+    
+    <Header>
+
+      <h2>Olá, seja bem-vindo <p> por favor preencha os campos abaixo.</h2>
+
+      <form action="BD/cad.php" method="POST" >
+        <label>Login:</label><input type="text" name="name" id="iname" autocomplete="off" placeholder="Digite seu nome" ><br>
+        <label>senha:</label><input type="password" name="senha" id="isenha" autocomplete="off" placeholder="Digite sua idade"><br>
+        <label>Escola</label><input type="text" name="escola" id="iescola" autocomplete="off" placeholder="Digite o nome da sua escola"><br>
+        
+        <p><input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar"></p>
+     </form>   
+
+    </Header>
+<section>
+      <a class="button" href="minhasFe.html" class="button">Minhas férias</a>
+      <a href="minhaAtiv.html" class="button">Atividade</a>
+      <a href="pesquisa.php" class="button">Histórias</a>
+  
+      
+
+
+    </section>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    
+  </main>
+  
+
+  <script src="animacaoferias.js"></script>
+</body>
+
+</html>
